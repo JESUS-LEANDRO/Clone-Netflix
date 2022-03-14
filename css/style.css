@@ -8,7 +8,7 @@ body{
     background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url(../imagens/bg.jpg);
 }
 .container{
-    width: 100%;
+    width: 970px;
 }
 .navbar{
     width: 100%;
