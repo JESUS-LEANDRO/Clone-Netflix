@@ -94,4 +94,10 @@ h1{
     border-style: none;
     font-size: 1rem;
 }
-
+footer{
+background-color:rgba(10, 10, 10, 0.521);
+text-align: center;
+align-items: center;
+margin: 10px 0px 10px 0px;
+border-radius: 5px;
+}
