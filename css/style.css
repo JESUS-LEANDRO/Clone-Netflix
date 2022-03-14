@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url(../imagens/bg.jpg);
+}
+.container{
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+#entrar a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    margin-top: 20px;
+    margin-right: auto;
+    width: 120px;
+    margin-left: 10px;
+}
+#idiomas{
+    height: 2rem;
+    gap: 3rem;
+    background-color: transparent;
+    color: white;
+}
+#idiomas option{
+    background-color: rgba(32, 32, 32, 0.459);
+}
+#entrar {
+    height: 1.7rem;
+    width: 4rem;
+    background-color: red;
+    color: white;
+    border-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+    font-size: 1rem;
+    margin-right: 15px;
+}
+.card-1{
+    text-align: center;
+    color: white;
+    min-width: 850px;
+    height: 495px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+}
+.card-2{
+    font-weight: 400;
+}
+h1{
+    font-size: 2.6rem;
+}
+.formulario{
+   padding: 1rem 0;
+   display: flex; 
+   flex-direction: column;
+   gap: 1rem;
+   font-size: 1.2rem;
+   height: 155px;
+}
+.card-3{
+ font-weight: 400;
+}
+.email{
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   padding: 1rem;
+}
+#email-1{
+    width: 400px;
+    padding: 1rem;
+}
+#botao-1{
+    align-items: center;
+    margin: auto;
+    padding: 8px;
+    background-color: red;
+    color: white;
+    border-radius: 2px;
+    border-style: none;
+    font-size: 1rem;
+}
+
